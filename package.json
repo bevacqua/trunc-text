@@ -1,7 +1,7 @@
 {
   "name": "trunc-text",
   "description": "truncate text by length, doesn't cut words",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "homepage": "https://github.com/bevacqua/trunc-text",
   "author": {
     "name": "Nicolás Bevacqua",
