@@ -1,5 +1,7 @@
 # trunc-text
 
+[![Build Status](https://travis-ci.org/bevacqua/trunc-text.svg?branch=master)](https://travis-ci.org/bevacqua/trunc-text)
+
 > truncate text by length, doesn't cut words
 
 # install
