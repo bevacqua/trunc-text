@@ -19,6 +19,14 @@ test(t => {
 });
 
 test(t => {
+  t.same(trunc('asd ', 3), '…');
+});
+
+test(`length is 4, returns as-is, 'asd …' would be a bug because cap is len 4`, t => {
+  t.same(trunc('asd ', 4), 'asd ');
+});
+
+test(t => {
   t.same(trunc(sw, NaN), '…');
 });
 
