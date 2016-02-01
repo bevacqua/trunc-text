@@ -25,6 +25,10 @@ Returns the result of truncating the provided `text` by `limit`.
 
 Maximum amount of text characters allowed. When the `limit` is reached, the algorithm will trace back to the last word separator and trim the rest into a `…` glyph.
 
+# related
+
+- [`trunc-html`](https://github.com/bevacqua/trunc-html)
+
 # license
 
 MIT
